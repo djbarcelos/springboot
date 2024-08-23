@@ -1,5 +1,5 @@
 #!/bin/bash
-# ./mvnw clean install
+./mvnw clean install
 java -jar target/springboot-0.0.1-SNAPSHOT.jar
 
 # # Configuração

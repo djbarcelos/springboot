@@ -12,6 +12,6 @@ public record EmployeeRecordDto(
                 @NotNull Date hireDate,
                 @NotBlank String workFunction,
                 @NotNull BigDecimal salary,
-                UUID managerId
-                ) {
+                UUID managerId,
+                UUID[] listManaged) {
 }
